@@ -1,3 +1,3 @@
 FROM amidos/dcind
 
-RUN apk --update --no-cache jq
+RUN apk add --update --no-cache jq
